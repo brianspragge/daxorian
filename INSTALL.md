@@ -12,12 +12,12 @@ Pfft! just kidding. like we're going to release all our dark magical secrets
 1. try the modifying a windowrule first to see what the effects of your shader might be:
 
 ```conf
-windowrule = shader ~/.config/hypr/shaders/distortion.frag, title:.*Kitty.*
+windowrule = shader ~/.config/hypr/shaders/distortion.frag.glsl, title:.*Kitty.*
 ```
 
 for all windows you can try:
 ```conf
 decoration {
-    shader = ~/.config/hypr/shaders/distortion.frag
+    shader = ~/.config/hypr/shaders/distortion.frag.glsl
 }
 ```
